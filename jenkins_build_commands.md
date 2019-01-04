@@ -42,11 +42,11 @@ fi
     # run your container
     echo ""
 	echo "..... Deployment Phase Started :: Building Docker Container :: ......"
-	sudo docker run -d -p 8180:8080 --name devops_pipeline_demo devops_pipeline_demo
+	sudo docker run -d -p 8181:8080 --name devops_pipeline_demo devops_pipeline_demo
 
 
 #-Completion
 echo "--------------------------------------------------------"
-echo "View App deployed here: http://server-ip:8180/sample.txt"
+echo "View App deployed here: http://server-ip:8181/sample.txt"
 echo "--------------------------------------------------------"
 ```
